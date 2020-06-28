@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-box</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="flex-header">
+    <h1>Flex Box Practice</h1>
+  </header>
+  <main class="flex-main">
+    <article>
+      <h3>flex-direction: row</h3>
+      <section class="flex-main-section-1">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+      </section>
+    </article>
+    <article>
+      <h3>flex-direction: row-reverse</h3>
+      <section class="flex-main-section-2">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+      </section>
+    </article>
+    <article>
+      <h3>flex-direction: column</h3>
+      <section class="flex-main-section-3">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+      </section>
+    </article>
+    <article>
+      <h3>flex-direction: column-reverse</h3>
+      <section class="flex-main-section-4">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+      </section>
+    </article>
+    <article>
+      <h3>flex-wrap: nowrap; (default)</h3>
+      <section class="flex-main-section-5">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>flex-wrap: wrap</h3>
+      <section class="flex-main-section-6">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>justify-content: flex-start; wrap</h3>
+      <section class="flex-main-section-7">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>justify-content: flex-end; wrap</h3>
+      <section class="flex-main-section-8">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>justify-content: center; wrap</h3>
+      <section class="flex-main-section-9">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>justify-content: space-between; wrap</h3>
+      <section class="flex-main-section-10">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>justify-content: space-around; wrap</h3>
+      <section class="flex-main-section-11">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>align-content: flex-start;</h3>
+      <section class="flex-main-section-12">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>align-content: flex-end;</h3>
+      <section class="flex-main-section-13">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>align-content: center;</h3>
+      <section class="flex-main-section-14">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>aline-items: space-around </h3>
+      <section class="flex-main-section-15">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>aline-items: baseline </h3>
+      <section class="flex-main-section-16">
+        <div class="box"> 1 </div>
+        <div class="box"> 2 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+    <article>
+      <h3>Attribute for Flex Items </h3>
+      <h4>order</h4>
+      <section class="flex-main-section-17">
+        <div class="box" stlye="order: 1"> 1 </div>
+        <div class="box"> 1, od 1 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box" style="order: -1"> 5, od -1 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box" style="order: 3"> 9 od 3 </div>
+      </section>
+    </article>
+    <article>
+      <h3>Attribute for Flex Items </h3>
+      <h4>flex: 증가너비 감소너비 기본너비</h4>
+      <section class="flex-main-section-17">
+        <div class="box"> 1 </div>
+        <div class="box"> 1 </div>
+        <div class="box"> 3 </div>
+        <div class="box"> 4 </div>
+        <div class="box"> 5 </div>
+        <div class="box"> 6 </div>
+        <div class="box"> 7 </div>
+        <div class="box"> 8 </div>
+        <div class="box"> 9 </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

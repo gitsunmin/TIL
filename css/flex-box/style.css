@@ -1,0 +1,132 @@
+.flex-main-section-1 {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* display: inline-flex; */
+  /* inline으로 여러개의 flex를 만듬 */
+}
+
+.flex-main-section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-main-section-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-main-section-4 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-main-section-5 {
+  display: flex;
+}
+
+.flex-main-section-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-main-section-7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-main-section-8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.flex-main-section-9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-main-section-10 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-main-section-11 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-main-section-12 {
+  height: 300px;
+  display: flex;
+  flex: wrap;
+  align-items: flex-start;
+}
+
+.flex-main-section-13 {
+  height: 300px;
+  display: flex;
+  flex: wrap;
+  align-items: flex-end;
+}
+
+.flex-main-section-13 {
+  height: 300px;
+  display: flex;
+  flex: wrap;
+  align-items: flex-end;
+}
+
+.flex-main-section-14 {
+  height: 300px;
+  display: flex;
+  flex: wrap;
+  align-items: center;
+}
+
+.flex-main-section-15 {
+  height: 300px;
+  display: flex;
+  flex: wrap;
+  align-items: space-around;
+}
+
+.flex-main-section-16 {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.flex-main-section-16 {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-main-section-17 {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: teal;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+article {
+  margin: 10px;
+  border: 4px dashed black;
+}
+
+h3, h4 {
+  margin-left: 10px;
+}
