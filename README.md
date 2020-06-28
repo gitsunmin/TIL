@@ -1,2 +1,5 @@
-# TIL
-블로그에 올리기엔 분량이 많지 않고, 하루하루 궁금했거나 필요한 것들 공부해서 올려놓는 용도입니다.
+# Today I Learned
+블로그에 올리진 않고, 그냥 연습해본 것들
+
+1. [css](https://github.com/gitsunmin/TIL/tree/master/css)   
+&nbsp;&nbsp;- [flex-box](https://github.com/gitsunmin/TIL/tree/master/css/flex-box)
