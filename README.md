@@ -9,6 +9,7 @@
 
 
 ##
-If you want to check CSS? => npx serve .
-If you want to check JS? => node ./ [[path]]
+If you want to check CSS? => **npx serve **  
+
+If you want to check JS? => **node ./ [[path]]**  
 
