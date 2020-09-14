@@ -4,6 +4,7 @@
   "description": "블로그에 올리진 않고, 그냥 연습해본 것들",
   "main": "index.js",
   "scripts": {
+    "web3": "babel-node ./js/web3/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/gitsunmin/TIL/issues"
   },
-  "homepage": "https://github.com/gitsunmin/TIL#readme"
+  "homepage": "https://github.com/gitsunmin/TIL#readme",
+  "dependencies": {
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.10.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
