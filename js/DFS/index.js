@@ -15,7 +15,7 @@ n개의 음이 아닌 정수가 있습니다.
   각 숫자는 1 이상 50 이하인 자연수입니다.
   타겟 넘버는 1 이상 1000 이하인 자연수입니다.
 */
-
+// git test
 
 function dfs(numbers, node, sum, target) {
   if (node === numbers.length) {
